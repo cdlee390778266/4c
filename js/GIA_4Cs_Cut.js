@@ -172,7 +172,7 @@
 
               slide: function( event, ui ) {
 
-                var sliderPositionStep = Math.round(ui.value/200);
+                var sliderPositionStep = Math.round(ui.value/100);
 
                 select[ 0 ].selectedIndex = sliderPositionStep - 1;
 

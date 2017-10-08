@@ -41,7 +41,7 @@ div.cutRuler {
     height: 410px;
     left: -40px;
     position: absolute;
-    top: -60px;
+    top: -70px;
     width: 140px;
 }
 .en_tool div.cutRuler {
@@ -263,5 +263,14 @@ div.cutTitle {
     margin-bottom: 30px;
 }
 div.cutTitle {
-    padding-top: 136px;
+    padding-top: 178px;
+}
+div#cutTool div.sliderHandleContainer {
+    margin-top: 98px;
+}
+.gia_cut_tool  {
+    height: 440px !important;
+}
+.bx-viewport > ul > li {
+    left: 120px;
 }
