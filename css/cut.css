@@ -1,0 +1,267 @@
+
+body {
+  font-family: arial,sans-serif;
+}
+div#cutWrapper {
+    width: 675px;
+    display: block;
+}
+div#toolDesc {
+    padding-right: 5px;
+    text-align: center;
+    width: 84%;
+}
+div#cutTool {
+    width: 675px;
+}
+div#descHeader{
+    padding-bottom: 15px;
+    display: inline-block;
+}
+div#descHeader div:nth-child(1){
+    font-family: arial,sans-serif;
+    padding-left: 4px;
+    letter-spacing: 1px;
+}
+div#descHeader div:nth-child(2){
+    font-size: 35px;
+}
+div#toolHelp{
+    font-family: arial,sans-serif;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+    padding-top: 5px;
+}
+div.cutRuler {
+    background-repeat: no-repeat;
+    background-size: auto 418px;
+    height: 410px;
+    left: -40px;
+    position: absolute;
+    top: -60px;
+    width: 140px;
+}
+.en_tool div.cutRuler {
+    background-image: url("../images/4Cs-Cut-EN.png");
+}
+.cn_tool div.cutRuler {
+    background-image: url("../images/4Cs-Cut-CN.png");
+}
+.ja_tool div.cutRuler {
+    background-image: url("../images/4Cs-Cut-JA.png");
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus,
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: url("../images/4Cs-Cut-SLIDER.png") no-repeat scroll 0 0 / 120px auto rgba(0, 0, 0, 0) !important;
+    border: 0 none !important;
+    height: 90px !important;
+    outline: 0 none !important;
+    width: 140px !important;
+}
+.ui-slider-vertical .ui-slider-handle {
+  margin-left: -2.5em !important;
+  margin-bottom: -1.9em !important;
+  left: 0.1em !important;
+}
+select#cut {
+display: none;
+}
+div.cutType {
+display: none;
+height: 365px;
+}
+div.cutTitle {
+font-size: 20px;
+text-align: center;
+width: 500px;
+padding-left: 30px;
+}
+/*div.cutTitle:after {
+content: "";
+height: 3px;
+background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(225,225,225,1) 50%,rgba(0,0,0,0) 100%);
+display: block;
+margin-bottom: 0px;
+margin-top: 5px;
+}*/
+span.cutDesc{
+text-align: center;
+display: block;
+margin: 20px 0px;
+background-color: #ffffff;
+font-family: arial,sans-serif;
+color: #666666;
+font-size: 14px;
+line-height: 18px;
+}
+div#cutTool div.sliderHandleContainer {
+float: right;
+position: relative;
+margin-top: 50px;
+}
+div#cutTool div.itemContainer {
+float: left;
+width: 560px;
+}
+div#cutTool .ui-slider-vertical{
+background: none repeat scroll 0 0 transparent;
+border: 0 none;
+height: 226px;
+margin-top: 88px;
+width: 84px;
+}
+div#cutTool .active {
+display: block;
+}
+div#cutTool .showMe {
+height: 150px;
+background-color: red;
+}
+div#cutTool div.bx-viewport{
+height: 0;
+}
+div#cutTool .bx-wrapper .bx-viewport {
+border: 0;
+box-shadow: 0 0;
+}
+div#cutTool .bx-wrapper .bx-pager.bx-default-pager a {
+background: none repeat scroll 0 0 #cccccc;
+border-radius: 7px;
+width: 8px;
+height: 8px;
+}
+div#cutTool .bx-wrapper .bx-pager.bx-default-pager a:hover, div#cutTool .bx-wrapper .bx-pager.bx-default-pager a.active {
+background: none repeat scroll 0 0 #bb7525;
+}
+div#cutTool .bx-wrapper .bx-pager {
+padding-left: 50px;
+margin-right: 30px;
+top: 170px;
+}
+div#cutTool .bx-default-pager:after{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(225, 225, 225, 1) 50%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    content: "";
+    display: none;
+    height: 3px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.GIACourtesy {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+.ui-dialog {
+    background: white none repeat scroll 0 0 !important;
+}
+.ui-dialog-titlebar {
+    display: none !important;
+}
+.ui-dialog-titlebar-close{
+    display: none !important;
+}
+.ui-dialog-content {
+    padding: 0 !important;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    width: 90% !important;
+}
+/* Lightbox style for image popup */
+.lightbox {
+    /** Hide the lightbox */
+    /*opacity: 0;*/
+    display: none;
+    /** Apply basic lightbox styling */
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    top: -50%;
+    left: 0;
+    color:#333333;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+    }
+.lightbox:target {
+    /** Show lightbox when it is target */
+    /*opacity: 1;*/
+    display: block;
+    outline: none;
+    top: 0;
+}
+.lightbox .box {
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    min-width:500px;
+    margin: 2% auto;
+    padding:10px 20px 10px 20px;
+    background-color:#FFF;
+    box-shadow: 0px 1px 26px -3px #777777;
+    }
+.lightbox .title {
+    margin:0;
+    padding:0 0 10px 0px;
+    border-bottom:1px #ccc solid;
+    font-size:22px;
+    }
+.lightbox .content {
+    display:block;
+    position:relative;
+    }
+.lightbox .close {
+    display:block;
+    float:right;
+    text-decoration:none;
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:22px;
+    color:#858585;
+    }
+.clear {
+    display:block;
+    clear:both;
+    }
+.magnify {
+    position: absolute;
+    right: 0;
+    top: 185px;
+}
+.cutTitle-txt {
+    font-size: 14px;
+    color: #64686b;
+    text-align: left;
+    display: block;
+    margin: 10px 0;
+}
+.gia_cut_tool, div#cutWrapper, div#cutTool {
+    display: block;
+    width: 100% !important;
+}
+div#cutTool div.itemContainer {
+    width: 1000px;
+}
+div.cutTitle {
+    float: right;
+    width: 300px;
+}
+.bx-wrapper {
+    float: left;
+}
+.magnify {
+    display: none;
+}
+.bx-viewport, .bx-wrapper {
+    width: 666px !important;
+    max-width: 666px !important;
+}
+.cutDesc p {
+    margin-bottom: 30px;
+}
+div.cutTitle {
+    padding-top: 136px;
+}

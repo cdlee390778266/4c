@@ -1,0 +1,449 @@
+body {
+
+	font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+
+    font-style: normal;
+
+    font-weight: normal;
+
+}
+
+
+
+div.colorScale {
+
+    background-size: 666px auto;
+
+    left: 0px;
+
+    top: 258px;
+
+}
+
+
+
+div.colorScale {
+
+    /*background-image: url("../img/4Cs-Color-EN.png")!important;*/
+
+    background-repeat: no-repeat;
+
+    /*background-size: 1100px auto;*/
+
+    height: 110px;
+
+    left: 0px;
+
+    position: absolute;
+
+    width: 666px;
+
+}
+
+
+
+.en_tool div.colorScale {
+
+    background-image: url("../img/4Cs-Color-EN.png");
+
+}
+
+
+
+.cn_tool div.colorScale {
+
+    background-image: url("../img/4Cs-Color-CN.png");
+
+}
+
+
+
+.ja_tool div.colorScale {
+
+    background-image: url("../img/4Cs-Color-JA.png");
+
+}
+
+
+
+.controls {
+
+    left: 0px;
+
+    width: 670px;
+
+}
+
+
+
+div#toolTitle div:nth-child(1){
+
+    font-size: 16px;
+
+    text-align: center;
+
+    padding-top: 5px; 
+
+
+
+}
+
+.ja_tool div#toolTitle div:nth-child(1){
+
+    font-size: 14px;
+
+}
+
+
+
+div#toolTitle div:nth-child(2){
+
+    font-size: 35px;
+
+    text-align: center;
+
+}
+
+
+
+.ja_tool div#toolTitle div:nth-child(2){
+
+    font-size: 25px;
+
+}
+
+
+
+#colorWrapper {
+
+    width: 675px;
+
+    height: 420px;
+
+    overflow: hidden;
+
+    /*border: 1px solid;*/
+
+    position: relative;
+    margin: 0 auto;
+
+}
+
+
+
+.ui-slider {
+
+    height: 90px;
+
+    left: 116px;
+
+    top: 9px;
+
+    width: 530px;
+
+}
+
+
+
+#ref {
+
+    position: absolute;
+
+    top: 449px;
+
+    color: #999999;
+
+    font-family: Arial,serif;
+
+    font-size: 12px;
+
+    left: 150px;
+
+    text-align: center;
+
+}
+
+.cn_tool #ref {
+
+    left: 220px;
+
+}
+
+.ja_tool #ref {
+
+    left: 62px;
+
+}
+
+.GIACourtesy {
+
+    position: absolute;
+
+    top: 468px;
+
+    font-size: 12px;
+
+    text-align: center;
+
+    left: 290px;
+
+}
+
+.ja_tool .GIACourtesy {
+
+    left: 305px;
+
+}
+
+.Color_name div:nth-child(1){
+
+    display: block;
+
+}
+
+.Color_name div{
+
+    display: none;
+
+}
+
+.Color_name::before {
+
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(204, 204, 204, 1) 50%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0;
+
+    content: "";
+
+    display: block;
+
+    height: 1px;
+
+    margin-bottom: 10px;
+
+    margin-top: 10px;
+
+}
+
+.Color_name {
+
+    font-size: 22px;
+
+    left: 135px;
+
+    padding: 5px;
+
+    position: absolute;
+
+    text-align: center;
+
+    top: 188px;
+
+    width: 400px;
+
+}
+
+
+
+
+
+.ui-widget-content {
+
+    background: none !important;
+
+    border: 0 !important;
+
+}
+
+
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default,
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus,
+
+.ui-state-hover,
+
+.ui-widget-content .ui-state-hover,
+
+.ui-widget-header .ui-state-hover,
+
+.ui-state-focus,
+
+.ui-widget-content .ui-state-focus,
+
+.ui-widget-header .ui-state-focus {
+
+    background-image: url("../img/4Cs-Color-SLIDER.png") !important;
+
+    background-position: 0 0 !important;
+
+    background-repeat: no-repeat !important;
+
+    background-size: 47px auto !important;
+
+    border: 0 none !important;
+
+    height: 132px !important;
+
+    outline: 0 none !important;
+
+    width: 50px !important;
+
+}
+
+
+
+.ui-slider-horizontal .ui-slider-handle{
+
+    margin-left: -30px !important;
+
+    top: 2px !important;
+
+}
+
+
+
+@charset "utf-8";
+
+*{
+
+    margin: 0px;
+
+    padding: 0px;   
+
+}
+
+
+
+/* CSS Document */
+
+/* ----------------- thumbnails label  -------------------- */
+
+.largeLabel{
+
+    font-family:Arial, Helvetica, sans-serif !important;
+
+    margin: 0px !important;
+
+    padding: 0px !important;
+
+    margin-right: 10px !important;
+
+    margin-left: 10px !important;
+
+    font-size:16px !important;
+
+    font-weight:400 !important;
+
+    line-height:20px !important;
+
+    color:#FFFFFF !important;
+
+    text-align:center !important;
+
+    font-weight:100 !important;
+
+}
+
+
+
+.smallLabel{
+
+    font-family:Arial, Helvetica, sans-serif !important;
+
+    margin: 0px !important;
+
+    padding: 0px !important;
+
+    margin: 6px !important;
+
+    margin-bottom:0px !important;
+
+    margin-right: 10px !important;
+
+    margin-left: 10px !important;
+
+    font-size:13px !important;
+
+    line-height:16px !important;
+
+    color:#AAAAAA !important;
+
+    text-align:center !important;
+
+    font-weight:100 !important;
+
+}
+
+
+
+/* -------- lighbox description window  ---------- */
+
+.mediaDescriptionHeader{
+
+    font-family:Arial, Helvetica, sans-serif !important;
+
+    margin: 0px !important;
+
+    padding: 0px !important;
+
+    margin: 6px !important;
+
+    margin-right: 10px !important;
+
+    font-size:22px !important;
+
+    line-height:22px !important;
+
+    color:#000000 !important;
+
+    font-weight:100 !important;
+
+}
+
+
+
+.mediaDescriptionText{
+
+    font-family:Arial, Helvetica, sans-serif !important;
+
+    margin: 0px !important;
+
+    padding: 0px !important;
+
+    margin: 6px !important;
+
+    margin-right: 10px !important;
+
+    font-size:13px !important;
+
+    line-height:18px !important;
+
+    color:#000000 !important;
+
+    font-weight:100 !important;
+
+}
+
+
+
+.comboboxSelectorText{
+
+    font-family:Arial, Helvetica, sans-serif !important;
+
+    font-size:13px !important;
+
+    padding: 6px !important;
+
+}
+
+
+
+.comboboxButtonText{
+
+    font-family:Arial, Helvetica, sans-serif !important;
+
+    font-size:13px !important;
+
+    padding: 6px !important;
+
+}
+

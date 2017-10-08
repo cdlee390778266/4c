@@ -1,0 +1,170 @@
+
+/*  @font-face {
+    font-family: DIN;
+    src: url(../other/DINNextLTPro-LightCondensed.otf);
+  }*/
+  body {
+    font-family: Arial, Serif;
+  }
+div#weightWrapper {
+    height: 240px;
+    overflow: hidden;
+    width: 675px;
+    margin: 0 auto;
+}
+  div.caratScale {
+    background-repeat: no-repeat;
+    background-size: 666px auto;
+    height: 80px;
+    position: absolute;
+    top: 67px;
+    width: 675px;
+  }
+  .en_tool div.caratScale {
+    background-image: url("../images/4Cs-Carat-EN.png");
+  }
+  .cn_tool div.caratScale {
+    background-image: url("../images/4Cs-Carat-CN.png");
+  }
+  .ja_tool div.caratScale {
+    background-image: url("../images/4Cs-Carat-JA.png");
+  }
+  .ui-widget-content{
+    background: none;
+    border: 0;
+  }
+  .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus,
+  .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: url("../images/4Cs-Carat-SLIDER.png") no-repeat scroll 0 0 / 55px auto rgba(0, 0, 0, 0);
+    border: 0 none;
+    height: 90px;
+    width: 55px;
+    outline: 0;
+  }
+  .ui-slider-horizontal .ui-slider-handle{
+    margin-left: -25px;
+    top: -17px;
+  }
+  .ui-slider-horizontal .ui-slider-handle {
+    /*top: -1em;*/
+  }
+  div.carat-tool {
+    width: 100%;
+    position: relative;
+  }
+ 
+  div#slider-range{
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    top: 85px;
+    width: 543px;
+    left: 18px;
+  }
+  div.target, div.target_2 {
+    height: 70px;
+    margin-left: -34px;
+    position: absolute;
+    top: -100px;
+    width: 70px;
+    background: url('../images/clarity_holder.png') center bottom no-repeat;
+    background-size: 80px;
+  }  
+/*  div.target_2 {
+    display: none;
+    height: 100px;
+    margin-left: 3.7%;
+    position: absolute;
+    top: 0px;
+    width: 100px;
+    background: url('../images/clarity_holder.png') center bottom no-repeat;
+    background-size: 80px;
+  }*/
+  img#image {
+    position: relative;
+    /*top: 0;bottom: 0;left: 0;right: 0;*/
+    /*margin:auto;*/
+  }
+  span#ref {
+      color: #999999;
+      font-family: Arial,serif;
+      font-size: 12px;
+      left: 150px;
+      position: absolute;
+      text-align: center;
+      top: 85px;
+  }
+  .ja_tool span#ref {
+    font-size: 11px;
+    left: 120px;
+  }
+  .cn_tool span#ref {
+    left: 185px;
+  }
+  div#toolTitle:after {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(204, 204, 204, 1) 50%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    content: "";
+    display: block;
+    height: 1px;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+  div#toolTitle {
+    /*width: 675px;*/
+  }
+  div#toolTitle div:nth-child(1){
+    font-size: 16px;
+    text-align: center;
+  }
+  .ja_tool div#toolTitle div:nth-child(1){
+    font-size: 13px;
+  }
+  div#toolTitle div:nth-child(2){
+    font-size: 35px;
+    text-align: center;
+  }
+  .ja_tool div#toolTitle div:nth-child(2){
+    font-size: 26px;
+  }
+  
+  #infoBtn {
+  	height: 60px;
+  	width: 100%;
+  }  
+  #toolInfo {
+    color: #cc9933;
+    font-size: 16px;
+    float: left;
+    padding-top: 5px;
+    width: 200px;
+  }
+  button#btn {
+    background-color: white;
+    border: 0 solid;
+    border-radius: 10px;
+    box-shadow: 0 0 7px 0 #999;
+    color: #999;
+    cursor: pointer;
+    float: right;
+    font-family: Arial,serif;
+    font-size: 15px;
+    margin-top: -26px;
+    padding: 10px;
+    width: 165px;
+    margin-right: 5px;
+  }
+  .ja_tool button#btn {
+    font-size: 11px;
+  }
+#resetbtn {
+  display: none;
+}
+.GIACourtesy {
+    font-size: 12px;
+    left: 43%;
+    position: absolute;
+    top: 192px;
+}
+.ja_tool .GIACourtesy {
+  left: 46%;
+}

@@ -150,8 +150,24 @@
 
                 $("div.clarityType:eq("+sliderPositionStep+") div.bx-viewport li").width(150);
 
+                var index = 0;
 
-
+                switch(sliderPositionStep) {
+                    case 0: index = 0; break;
+                    case 1: index = 1; break;
+                    case 2: 
+                    case 3: index = 2; break;
+                    case 4: 
+                    case 5: index = 3; break;
+                    case 6: 
+                    case 7: index = 4; break;
+                    case 8: 
+                    case 9: 
+                    case 10: index = 5; break;
+                }
+                
+                $('#kl-tip li').removeClass('active');
+                $('#kl-tip li').eq(index).addClass('active');
                 // // Logging
 
                 // console.log("Option " + ui.value + " is showing.");
