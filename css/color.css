@@ -5,7 +5,7 @@ body {
     font-style: normal;
 
     font-weight: normal;
-
+    line-height: 30px;
 }
 
 
@@ -447,3 +447,49 @@ div#toolTitle div:nth-child(2){
 
 }
 
+.color-1 {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.color-1 p {
+    margin-bottom: 20px;
+}
+.color-2 {
+    padding-top: 40px;
+    background: url(../images/cut-5.png) no-repeat;
+    overflow: hidden;
+}
+.color-2-l {
+    float: left;
+    margin-left: 30px;
+}
+.color-2-r {
+    float: right;
+    width: 744px;
+    font-size: 18px;
+    line-height: 50px;
+    padding-top: 10px;
+    color: #333;
+}
+.color-2-r li strong {
+    color: #000;
+}
+.color-slide {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.color-3-box {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #333;
+}
+.color-3-box h3 {
+    font-size: 18px;
+    color: #000;
+}
+.ui-slider-handle {
+    background-color: transparent !important;
+}
+.color-3 {
+    margin-top: 80px;
+}

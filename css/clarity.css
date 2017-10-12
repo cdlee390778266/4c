@@ -412,3 +412,32 @@ a {
 .bx-controls, .clarityTypeToolTip{
   display: none !important;
 }
+.c2 {
+  padding-top: 50px;
+  overflow: hidden;
+}
+.c5 h3 {
+  font-size: 24px;
+  color: #000;
+  line-height: 80px;
+  font-weight: normal;
+  position: relative;
+  margin: 40px auto;
+}
+.c5 h3:after {
+  content: '';
+  display: block;
+  width: 330px;
+  height: 1px;
+  position: absolute;
+  left: 50%;
+  bottom: 1px;
+  margin-left: -165px; 
+  background: #000;
+}
+.c5 p {
+  line-height: 30px; 
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 16px;
+}

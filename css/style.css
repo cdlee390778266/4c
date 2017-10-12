@@ -27,6 +27,7 @@
   position: relative;
   height: 46px;
   line-height: 46px;
+  margin-top: -42px;
 }
 .nav:before {
   content: '';
@@ -59,6 +60,7 @@
   cursor: pointer;
 }
 .nav .wrapper ul li a {
+  display: block;
   color: #fff;
 }
 .nav .wrapper ul li:hover, .nav .wrapper ul li.active {
@@ -128,4 +130,15 @@ a {
 .c-img {
   text-align: center;
   margin: 20px auto; 
+}
+.rel {
+  position: relative;
+}
+.clarity-txt {
+  position: absolute;
+  left: 0;
+  bottom: 170px;
+  width: 416px;
+  font-size: 14px;
+  line-height: 36px;
 }

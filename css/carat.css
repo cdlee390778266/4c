@@ -5,6 +5,7 @@
   }*/
   body {
     font-family: Arial, Serif;
+    line-height: 30px;
   }
 div#weightWrapper {
     height: 240px;
@@ -167,4 +168,29 @@ div#weightWrapper {
 }
 .ja_tool .GIACourtesy {
   left: 46%;
+}
+.carat-1 {
+  padding-top: 80px;
+}
+.carat-1-img {
+  margin: 40px 0;
+}
+.carat-2 {
+  padding-top: 30px;
+  background: url(../images/cut-5.png) no-repeat;
+}
+.carat-2 p {
+  margin-bottom: 40px;
+}
+.cut-3-box {
+  margin-bottom: 80px;
+  font-size: 18px;
+  line-height: 50px;
+  color: #33;
+}
+.cut-3-box strong {
+  color: #000;
+}
+.carat {
+  padding-top: 50px;
 }

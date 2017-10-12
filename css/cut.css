@@ -1,6 +1,7 @@
 
 body {
   font-family: arial,sans-serif;
+  line-height: 30px;
 }
 div#cutWrapper {
     width: 675px;
@@ -273,4 +274,60 @@ div#cutTool div.sliderHandleContainer {
 }
 .bx-viewport > ul > li {
     left: 120px;
+}
+.cut-1 {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+.cut-1-l {
+    width: 588px;
+    float: left;
+    padding: 20px 0;
+}
+.cut-1-r {
+    width: 500px;
+    padding-left: 20px;
+    text-align: left;
+    float: right;
+}
+.cut-1-b {
+    padding-top: 10px;
+}
+.cut-1-b p {
+    margin-bottom: 20px;
+}
+.cut-1-t {
+    padding-top: 10px;
+}
+.cut-2 {
+    padding: 40px 0;
+    background: url('../images/cut-bg.png') repeat-x;
+}
+.cut-2 p {
+    margin-bottom: 20px;
+}
+.c2 {
+    overflow: hidden;
+}
+.c2 h1 {
+    padding: 20px 0;
+    font-size: 24px;
+    background: url('../images/cut-5.png') bottom center no-repeat ;
+}
+.c2-r-t {
+    text-align: center;
+    padding-top: 160px;
+}
+.gia_cut_tool {
+    margin-top: 40px;
+}
+.cut-3 {
+    font-size: 18px;
+    padding: 40px 0;
+    padding-top: 100px;
+}
+.cut-3 p {
+    font-size: 16px;
+    margin-bottom: 40px;
 }

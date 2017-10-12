@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" type="text/css" href="../css/clarity.css">
   <script src="../js/GIA_4Cs_Clarity.js"></script>
+  <script src="../js/scrollReveal.min.js"></script>
   <script type="text/javascript">
   $(function(){
     // Create a connection to the XML file.
@@ -22,13 +23,15 @@
       noWatermark : false,
       language : 'en'
     });
+
+    window.scrollReveal = new scrollReveal({ reset: true, move: '50px' });
   });
   </script>
   
 </head>
 <body>
   <div class="banner">
-    <img src="../images/clarity.png" alt="" /></div>
+    <img src="../images/clarity.png" alt="" />
   </div>
   <div class="nav">
     <div class="wrapper">
@@ -43,8 +46,13 @@
   <div class="box">
     <div class="box-item">
       <div class="c-top">
-        <div class="wrapper">
-        <img src="../images/clarity-5.png" height="816" width="1214" alt="" class="img" />
+        <div class="wrapper rel">
+          <img src="../images/clarity-5.png" height="816" width="1214" alt="" class="img" />
+          <div class="clarity-txt" data-scroll-reveal="enter from the top over 1.5s">
+            钻石作为在高温高压下自然形成的宝石，每一颗都有独特的“胎记”，
+在内部的“胎记”成为内含物，在表面的“胎记”成为表面特征，4C
+标准中的净度是指钻石无内含物和表面特征的程度。
+          </div>
         <!-- <div class="center"><img src="../images/clarity-1.png" height="274" width="1214" alt="" /></div>
         <div class="c1">
           <div class="c1-l">
@@ -60,15 +68,15 @@
       </div>
       </div>
       <div class="wrapper">
-        <div class="c1 center">
+        <!-- <div class="c1 center">
           <img src="../images/clarity-6.png" height="287" width="767" alt="" />
-        </div>
+        </div> -->
         <!-- <div class="center c2">
           <p>GIA国际钻石分级系统将这些“胎记”在10倍放大镜下的成像，通过大小、类型、位置、颜色或可见度，以及在 10 倍放<br />
   大倍率下可见的净度特征数量，分为6个类别，11个等级：</p>
           <img src="../images/clarity-4.png" height="214" width="640" alt="" /> -->
         <div class="c2">
-          <div class="c2-l">
+          <div class="c2-l" data-scroll-reveal="enter right after 0.5s">
             <div class="c2-item">
               <h2>无瑕级 (FL) </h2>
               <p>钻石没有任何内含物或表面特征，最高净度品质的钻石，极其罕见</p>
@@ -94,7 +102,7 @@
               <p>瑕疵肉眼可见，并且可能会影响透明度和亮光，克拉盛宴不提供，也建议客户不使用。</p>
             </div>
           </div>
-          <div class="c2-r">
+          <div class="c2-r" data-scroll-reveal="enter left after 0.5s">
             <div class="c2-r-t">
               <ul id="kl-tip">
                 <li class="active">(FL) </li>
@@ -106,16 +114,14 @@
               </ul>
               <div class="gia_clarity_tool"></div>
             </div>
+            </div>
           </div>
-          <div class="c1 center">
-            <img src="../images/clarity-7.png" height="726" width="928" alt=""  />
-            <!-- <h3>美国宝石研究院的净度分级系统是如何产生的？</h3>
-            <div class="c5-line"></div>
+          <div class="c5 center" data-scroll-reveal="enter from the top over 1.5s">
+            <h3>美国宝石研究院的净度分级系统是如何产生的？</h3>
             <p>为了规范市场，美国宝石研究院创立了一套清晰统一的净度分级系统，被全球广泛认可并使用，非常利于珠宝的交<br />
   易。同时也让消费者对钻石的价值有了一个更加直观的了解。</p>
             <p><img src="../images/clarity-3.png" height="395" width="671" alt="" /></p>
-            <p><strong>净度对钻石价值的影响：</strong>净度是属于钻石内部瑕疵，虽然肉眼难以分辨，但是对钻石价格的影响也是很大的。</p> -->
-          </div>
+            <p><strong>净度对钻石价值的影响：</strong>净度是属于钻石内部瑕疵，虽然肉眼难以分辨，但是对钻石价格的影响也是很大的。</p>
           </div>
         </div>
       </div>
